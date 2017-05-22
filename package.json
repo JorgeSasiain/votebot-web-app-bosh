@@ -1,0 +1,10 @@
+{
+  "name": "votebot-web-app-bosh",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-xmpp-bosh": "dhruvbird/node-xmpp-bosh"
+  }
+}
