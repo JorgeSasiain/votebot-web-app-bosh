@@ -9,6 +9,5 @@ const server_options = {
 };
 
 const bosh_server = nxb.start_bosh(server_options);
-const ws_server = nxb.start_websocket(bosh_server, server_options);
 
 console.info("Server running on port " + PORT);
