@@ -12,20 +12,3 @@ const bosh_server = nxb.start_bosh(server_options);
 const ws_server = nxb.start_websocket(bosh_server, server_options);
 
 console.info("Server running on port " + PORT);
-
-/*
-
-const SocketServer = require('ws').Server;
-const url = require('url');
-
-const wss = new SocketServer({server});
-
-wss.on('connection', function connection(ws) {
-  console.info("connection");
-  const location = url.parse(ws.upgradeReq.url, true); //???
-});
-
-package.json -
-    "ws": "^2.3.1"
-
-*/
